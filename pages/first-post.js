@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function FirstPost() {
   return (
     <>
+      <Head>
+        <title>Primeiro post</title>
+      </Head>
       <Image
         src="/images/profile.png"
         width={100}
