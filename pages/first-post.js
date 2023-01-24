@@ -17,14 +17,7 @@ export default function FirstPost() {
           }
         />
       </Head>
-
-
-      <Image
-        src="/images/profile.png"
-        width={100}
-        height={100}
-        alt="Meu perfil"
-      />
+      
       <h1>
         Primeiro Post
       </h1>
